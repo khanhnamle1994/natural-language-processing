@@ -1,0 +1,11 @@
+#!/Users/khanhnamle/Desktop/cs224n/assignment1/.env/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from IPython.parallel.apps.ipclusterapp import launch_new_instance
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(launch_new_instance())

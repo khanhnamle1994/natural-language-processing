@@ -1,0 +1,9 @@
+{
+  "have_sys_un_h": true, 
+  "zmq_prefix": "", 
+  "no_libzmq_extension": false, 
+  "libzmq_extension": true, 
+  "bdist_egg": {}, 
+  "skip_check_zmq": false, 
+  "build_ext": {}
+}
